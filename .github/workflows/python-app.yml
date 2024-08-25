@@ -40,6 +40,8 @@ jobs:
       run: |
         pytest main.py --alluredir=allure-results
       continue-on-error: true
+
+      
     - name: Load test report history
       uses: actions/checkout@v3
       if: always()
