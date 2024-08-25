@@ -42,6 +42,6 @@ def test_pet_operations(base_url, pet_id):
 def test2():
     print("second test")
     
-def test3():
-    print("3 test")
+#def test3():
+    #print("3 test")
 
